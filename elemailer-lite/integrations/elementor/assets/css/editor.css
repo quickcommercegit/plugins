@@ -1,0 +1,37 @@
+/* show only void email template widgets category */
+#elementor-panel-categories .elementor-panel-category:not(#elementor-panel-category-elemailer-template-builder-fields) {
+    display: none;
+}
+
+/* hide advanced tab from elementor editor panel */
+#elementor-panel-content-wrapper #elementor-panel-page-editor .elementor-panel-navigation .elementor-component-tab.elementor-panel-navigation-tab.elementor-tab-control-advanced {
+    display: none;
+}
+
+/* hide global settings from elementor editor panel */
+#elementor-panel-content-wrapper #elementor-panel-page-menu-content .elementor-panel-menu-items .elementor-panel-menu-item-global-settings {
+    display: none;
+}
+
+/* hide site editor from elementor editor panel */
+#elementor-panel-content-wrapper #elementor-panel-page-menu-content .elementor-panel-menu-items .elementor-panel-menu-item-site-editor {
+    display: none;
+}
+/* hide global widget switching tab for avoiding show others global widgets */
+#elementor-panel-inner #elementor-panel-content-wrapper #elementor-panel-elements-navigation div[data-tab="global"] {
+    display: none;
+}
+/* hide search button for avoiding show others widgets during search */
+#elementor-panel-inner #elementor-panel-content-wrapper #elementor-panel-page-elements #elementor-panel-elements-search-area {
+    display: none;
+}
+/* hide settings for avoiding unwanted controls and styles */
+#elementor-panel-inner #elementor-panel-footer #elementor-panel-footer-settings{
+    display: none;
+}
+/* elementor width issue solve specially in iframe */
+.elementor-device-desktop #elementor-preview-responsive-wrapper {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    width: 100% !important;
+}

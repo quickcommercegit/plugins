@@ -1,0 +1,8 @@
+/* elementor bottom templete library hide */
+#elementor-add-new-section .elementor-add-new-section .elementor-add-section-area-button.elementor-add-template-button {
+    display: none;
+}
+/* elementor top templete library hide */
+.elementor-inner .elementor-add-section .elementor-add-new-section .elementor-add-section-area-button.elementor-add-template-button {
+    display: none;
+}

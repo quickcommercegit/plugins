@@ -1,0 +1,81 @@
+/**
+ * Tracking code metabox styles.
+ */
+#poststuff {
+  padding: 0;
+
+  #wc_any_shipping_notify {
+    .inside {
+      padding: 0;
+    }
+
+    select {
+      width: 225px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.wc-any-shipping-tracking-code__list {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+
+  ul {
+    display: block;
+    list-style-type: circle;
+    margin: .5em 0;
+    padding-left: 1.2em;
+  }
+}
+
+
+.wc-any-shipping-tracking-code {
+  .dashicons-dismiss {
+    color: #a00;
+    margin-left: .4em;
+    text-decoration: none;
+    vertical-align: baseline;
+
+    &:hover {
+      color: red;
+      text-decoration: none;
+    }
+
+    &:before {
+      font-family: "Dashicons";
+      text-align: center;
+      text-decoration: none;
+      vertical-align: middle;
+    }
+  }
+
+
+  .dashicons-plus {
+    padding-left: 0;
+    padding-right: 0;
+
+    &:before {
+      font-family: "Dashicons";
+    }
+  }
+
+  fieldset {
+    padding: 0 10px 10px;
+  }
+
+  label {
+    display: block;
+  }
+
+  input {
+    width: 225px;
+  }
+
+  button {
+    height: 24px;
+    line-height: 1;
+    padding: 5px;
+    width: 24px;
+  }
+}

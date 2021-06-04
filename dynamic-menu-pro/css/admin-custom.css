@@ -1,0 +1,37 @@
+.menu-item-edit-active .menu-item-settings {
+    overflow: hidden;
+}
+
+.dm-tooltip {
+    position: relative;
+    display: inline-block;
+}
+a.dm-tooltip {outline:none !important;text-decoration: none; }
+a.dm-tooltip strong {line-height:30px;}
+a.dm-tooltip:hover {text-decoration:none;} 
+a.dm-tooltip span {
+    z-index:10;display:none; padding:14px 20px;
+    margin-top:-30px; margin-left:28px;
+    width:150px; line-height:16px;
+}
+a.dm-tooltip:hover span{
+    display:inline; position:absolute; color:#111;
+    border:1px solid #DCA; background:#fffAF0;}
+.callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;}
+    
+/*CSS3 extras*/
+a.dm-tooltip span
+{
+    border-radius:4px;
+    box-shadow: 5px 5px 8px #CCC;
+}
+
+label.dm-info-icon {
+	background-image: url(../images/info.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	height:17px;
+	width: 16px;   
+	display: inline-block;
+	margin: 2px 0 0 5px;
+}

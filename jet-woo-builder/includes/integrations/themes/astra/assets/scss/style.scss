@@ -1,0 +1,12 @@
+.cart .buttons_added {
+	display: flex !important;
+	float: left !important;
+
+	input[type=number] {
+		max-width: 100%;
+	}
+}
+
+.elementor-jet-single-add-to-cart .cart .quantity {
+	float: left;
+}

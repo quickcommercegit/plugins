@@ -1,0 +1,1 @@
+!function(){"use strict";window.jQuery(function(o){new ClipboardJS(".pix-copy").on("success",function(e){var t=o(".pix-copy-button"),n=t.text();t.text("Copiado!"),setTimeout(function(){t.text(n)},1e3)}),o("#juno-pix-thankyou").remove().insertAfter(".woocommerce-thankyou-order-received")})}();
